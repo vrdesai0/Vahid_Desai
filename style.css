@@ -102,9 +102,9 @@ ul li:hover{
     font-size: 4rem;
 }
 
-.about h1:nth-child(2) {
+/* .about h1:nth-child(2) { */
     /* color: #ffde8a; */
-}
+/* } */
 
 .about p {
     width: 100%;
