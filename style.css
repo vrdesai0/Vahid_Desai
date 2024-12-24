@@ -860,3 +860,28 @@ form button:hover {
     border: 2px solid #ffde8a;
 
 }
+
+.res {
+    display: none;
+}
+
+@media (max-width: 844px) {
+    
+    nav {
+        display: none;
+    }
+    .profile, .skill-h1, .skills, .project-h1, .projects, .contacth1, .review  {
+        display: none;
+    }
+    body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .res {
+        text-align: center;
+        color: white;
+        display: block;
+    }
+}
