@@ -9,6 +9,17 @@ btn2.addEventListener('mouseenter', () => {
     btn1.style.outline = '1px solid white';
 });
 
+btn2.addEventListener('mouseenter', () => {
+    btn2.style.color = 'white';
+    btn2.style.backgroundColor = 'black';
+    btn2.style.outline = '1px solid #ffde8a';
+});
+btn2.addEventListener('mouseleave', () => {
+    btn2.style.color = 'black';
+    btn2.style.backgroundColor = '#ffde8a';
+    btn2.style.outline = '1px solid white';
+});
+
 btn2.addEventListener('mouseleave', () => {
     btn1.style.color = 'white';
     btn1.style.backgroundColor = 'black';
@@ -20,6 +31,18 @@ btn1.addEventListener('mouseenter', () => {
     btn1.style.color = 'black';
     btn1.style.backgroundColor = '#ffde8a';
     btn1.style.outline = '1px solid white';
+});
+
+btn1.addEventListener('mouseenter', () => {
+    btn2.style.color = 'white';
+    btn2.style.backgroundColor = 'black';
+    btn2.style.outline = '1px solid white';
+});
+
+btn1.addEventListener('mouseleave', () => {
+    btn2.style.color = 'black'; // Keep the default style here
+    btn2.style.backgroundColor = '#ffde8a';
+    btn2.style.outline = '1px solid white';
 });
 
 btn1.addEventListener('mouseleave', () => {
