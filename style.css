@@ -17,6 +17,7 @@ body a {
 body {
     background-color: black;    
     color: white;
+    /* background-color: rgb(28 27 34); */
 }
 
 nav {
@@ -87,7 +88,8 @@ ul li:hover{
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
-    padding-top: 35px;
+    padding-top: 15px;
+    /* text-align-last: center; */
     padding-bottom: 0px;
     /* background-color: blue; */
     height: 100%;
@@ -101,13 +103,13 @@ ul li:hover{
 }
 
 .about h1:nth-child(2) {
-    color: #ffde8a;
+    /* color: #ffde8a; */
 }
 
 .about p {
     width: 100%;
     text-align-last: center;
-    background-color: #33333388;
+    /* background-color: #33333388; */
     box-shadow: 3px -2px 4px 0px #ffde8a;
     animation: example 4s linear ;
     overflow: hidden;
@@ -154,7 +156,8 @@ ul li:hover{
     left: 8%; 
     width: 84%; 
     height: 60.5%; 
-    border: 5px dashed #ffde8a; 
+    /* border: 5px dashed #ffde8a;  */
+    border: 5px dashed white; 
     border-radius: 50%;
     animation: rt 24s linear infinite; 
    z-index: 0;
@@ -181,7 +184,7 @@ ul li:hover{
     padding-top: 75px;
     margin-bottom: 40px;
     font-size: 4rem;
-    color: #ffde8a;
+    /* color: #ffde8a; */
 }
 
 .social-media h1 span {
