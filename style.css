@@ -269,16 +269,16 @@ ul li:hover{
     color: white;
 }
 
-.icons .p2 a{
+/* .icons .p2 a{
     color: #ffde8a;
 }
 .icons .p4 a{
     color: #ffde8a;
-}
+} */
 
 .social-1 i {
     animation : rot 5s linear forwards infinite;
-    animation-play-state: paused;
+    /* animation-play-state: paused; */
 }
 
 /* .social-1 i:hover {
@@ -286,7 +286,7 @@ ul li:hover{
 } */
 
 .social-1:hover i {
-    animation-play-state: running;
+    animation-play-state: paused;
 }
 
 @keyframes rot {
