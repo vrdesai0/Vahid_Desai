@@ -11,7 +11,7 @@ btn2.addEventListener('mouseenter', () => {
 
 btn2.addEventListener('mouseenter', () => {
     btn2.style.color = 'white';
-    btn2.style.backgroundColor = 'black';
+    btn2.style.backgroundColor = 'rgb(28 27 34)';
     btn2.style.outline = '1px solid #ffde8a';
 });
 btn2.addEventListener('mouseleave', () => {
@@ -22,7 +22,7 @@ btn2.addEventListener('mouseleave', () => {
 
 btn2.addEventListener('mouseleave', () => {
     btn1.style.color = 'white';
-    btn1.style.backgroundColor = 'black';
+    btn1.style.backgroundColor = 'rgb(28 27 34)';
     btn1.style.outline = '1px solid #ffde8a';
 });
 
@@ -35,7 +35,7 @@ btn1.addEventListener('mouseenter', () => {
 
 btn1.addEventListener('mouseenter', () => {
     btn2.style.color = 'white';
-    btn2.style.backgroundColor = 'black';
+    btn2.style.backgroundColor = 'rgb(28 27 34)';
     btn2.style.outline = '1px solid white';
 });
 
@@ -47,7 +47,7 @@ btn1.addEventListener('mouseleave', () => {
 
 btn1.addEventListener('mouseleave', () => {
     btn1.style.color = 'white'; // Keep the default style here
-    btn1.style.backgroundColor = 'black';
+    btn1.style.backgroundColor = 'rgb(28 27 34)';
     btn1.style.outline = '1px solid #ffde8a';
 });
 
